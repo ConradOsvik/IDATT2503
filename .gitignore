@@ -1,3 +1,49 @@
 .DS_Store
 oving3
 ghidra
+
+# Compiled Object files
+*.o
+*.obj
+*.ko
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Static libraries
+*.a
+*.lib
+*.la
+*.lo
+
+# Shared objects & Dynamic libraries
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Executables
+*.exe
+*.out
+*.app
+a.out
+
+# Rust
+target/
+Cargo.lock
+**/*.rs.bk
+*.pdb
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.ilk
+*.map
+*.exp
+
+# Core dumps
+core
+core.*
