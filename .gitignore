@@ -30,6 +30,11 @@ ghidra
 *.app
 a.out
 
+# Unix executables without extension (specific names)
+assembly
+string_replace
+c_example
+
 # Rust
 target/
 Cargo.lock
